@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8380148425B4813E001BA8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380148325B4813E001BA8EC /* AppDelegate.swift */; };
+		8380148625B4813F001BA8EC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8380148525B4813F001BA8EC /* GameScene.sks */; };
+		8380148825B4813F001BA8EC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8380148725B4813F001BA8EC /* Actions.sks */; };
+		8380148A25B4813F001BA8EC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380148925B4813F001BA8EC /* GameScene.swift */; };
+		8380148C25B4813F001BA8EC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380148B25B4813F001BA8EC /* GameViewController.swift */; };
+		8380148F25B4813F001BA8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8380148D25B4813F001BA8EC /* Main.storyboard */; };
+		8380149125B48140001BA8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8380149025B48140001BA8EC /* Assets.xcassets */; };
+		8380149C25B48140001BA8EC /* RocatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380149B25B48140001BA8EC /* RocatTests.swift */; };
+		838014A725B48140001BA8EC /* RocatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838014A625B48140001BA8EC /* RocatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8380149825B48140001BA8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8380147825B4813E001BA8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8380147F25B4813E001BA8EC;
+			remoteInfo = Rocat;
+		};
+		838014A325B48140001BA8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8380147825B4813E001BA8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8380147F25B4813E001BA8EC;
+			remoteInfo = Rocat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8380148025B4813E001BA8EC /* Rocat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rocat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8380148325B4813E001BA8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8380148525B4813F001BA8EC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8380148725B4813F001BA8EC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		8380148925B4813F001BA8EC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8380148B25B4813F001BA8EC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8380148E25B4813F001BA8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8380149025B48140001BA8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8380149225B48140001BA8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8380149725B48140001BA8EC /* RocatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8380149B25B48140001BA8EC /* RocatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocatTests.swift; sourceTree = "<group>"; };
+		8380149D25B48140001BA8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838014A225B48140001BA8EC /* RocatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838014A625B48140001BA8EC /* RocatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocatUITests.swift; sourceTree = "<group>"; };
+		838014A825B48140001BA8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8380147D25B4813E001BA8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8380149425B48140001BA8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8380149F25B48140001BA8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8380147725B4813E001BA8EC = {
+			isa = PBXGroup;
+			children = (
+				8380148225B4813E001BA8EC /* Rocat */,
+				8380149A25B48140001BA8EC /* RocatTests */,
+				838014A525B48140001BA8EC /* RocatUITests */,
+				8380148125B4813E001BA8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8380148125B4813E001BA8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8380148025B4813E001BA8EC /* Rocat.app */,
+				8380149725B48140001BA8EC /* RocatTests.xctest */,
+				838014A225B48140001BA8EC /* RocatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8380148225B4813E001BA8EC /* Rocat */ = {
+			isa = PBXGroup;
+			children = (
+				8380148325B4813E001BA8EC /* AppDelegate.swift */,
+				8380148525B4813F001BA8EC /* GameScene.sks */,
+				8380148725B4813F001BA8EC /* Actions.sks */,
+				8380148925B4813F001BA8EC /* GameScene.swift */,
+				8380148B25B4813F001BA8EC /* GameViewController.swift */,
+				8380148D25B4813F001BA8EC /* Main.storyboard */,
+				8380149025B48140001BA8EC /* Assets.xcassets */,
+				8380149225B48140001BA8EC /* Info.plist */,
+			);
+			path = Rocat;
+			sourceTree = "<group>";
+		};
+		8380149A25B48140001BA8EC /* RocatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8380149B25B48140001BA8EC /* RocatTests.swift */,
+				8380149D25B48140001BA8EC /* Info.plist */,
+			);
+			path = RocatTests;
+			sourceTree = "<group>";
+		};
+		838014A525B48140001BA8EC /* RocatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				838014A625B48140001BA8EC /* RocatUITests.swift */,
+				838014A825B48140001BA8EC /* Info.plist */,
+			);
+			path = RocatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8380147F25B4813E001BA8EC /* Rocat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838014AB25B48140001BA8EC /* Build configuration list for PBXNativeTarget "Rocat" */;
+			buildPhases = (
+				8380147C25B4813E001BA8EC /* Sources */,
+				8380147D25B4813E001BA8EC /* Frameworks */,
+				8380147E25B4813E001BA8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rocat;
+			productName = Rocat;
+			productReference = 8380148025B4813E001BA8EC /* Rocat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8380149625B48140001BA8EC /* RocatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838014AE25B48140001BA8EC /* Build configuration list for PBXNativeTarget "RocatTests" */;
+			buildPhases = (
+				8380149325B48140001BA8EC /* Sources */,
+				8380149425B48140001BA8EC /* Frameworks */,
+				8380149525B48140001BA8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8380149925B48140001BA8EC /* PBXTargetDependency */,
+			);
+			name = RocatTests;
+			productName = RocatTests;
+			productReference = 8380149725B48140001BA8EC /* RocatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		838014A125B48140001BA8EC /* RocatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838014B125B48140001BA8EC /* Build configuration list for PBXNativeTarget "RocatUITests" */;
+			buildPhases = (
+				8380149E25B48140001BA8EC /* Sources */,
+				8380149F25B48140001BA8EC /* Frameworks */,
+				838014A025B48140001BA8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838014A425B48140001BA8EC /* PBXTargetDependency */,
+			);
+			name = RocatUITests;
+			productName = RocatUITests;
+			productReference = 838014A225B48140001BA8EC /* RocatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8380147825B4813E001BA8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8380147F25B4813E001BA8EC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8380149625B48140001BA8EC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8380147F25B4813E001BA8EC;
+					};
+					838014A125B48140001BA8EC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8380147F25B4813E001BA8EC;
+					};
+				};
+			};
+			buildConfigurationList = 8380147B25B4813E001BA8EC /* Build configuration list for PBXProject "Rocat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8380147725B4813E001BA8EC;
+			productRefGroup = 8380148125B4813E001BA8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8380147F25B4813E001BA8EC /* Rocat */,
+				8380149625B48140001BA8EC /* RocatTests */,
+				838014A125B48140001BA8EC /* RocatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8380147E25B4813E001BA8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8380148F25B4813F001BA8EC /* Main.storyboard in Resources */,
+				8380148625B4813F001BA8EC /* GameScene.sks in Resources */,
+				8380149125B48140001BA8EC /* Assets.xcassets in Resources */,
+				8380148825B4813F001BA8EC /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8380149525B48140001BA8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838014A025B48140001BA8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8380147C25B4813E001BA8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8380148A25B4813F001BA8EC /* GameScene.swift in Sources */,
+				8380148C25B4813F001BA8EC /* GameViewController.swift in Sources */,
+				8380148425B4813E001BA8EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8380149325B48140001BA8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8380149C25B48140001BA8EC /* RocatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8380149E25B48140001BA8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838014A725B48140001BA8EC /* RocatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8380149925B48140001BA8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8380147F25B4813E001BA8EC /* Rocat */;
+			targetProxy = 8380149825B48140001BA8EC /* PBXContainerItemProxy */;
+		};
+		838014A425B48140001BA8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8380147F25B4813E001BA8EC /* Rocat */;
+			targetProxy = 838014A325B48140001BA8EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8380148D25B4813F001BA8EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8380148E25B4813F001BA8EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838014A925B48140001BA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		838014AA25B48140001BA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838014AC25B48140001BA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JCD5VH7JT;
+				INFOPLIST_FILE = Rocat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystianchrobok.Rocat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		838014AD25B48140001BA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JCD5VH7JT;
+				INFOPLIST_FILE = Rocat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystianchrobok.Rocat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		838014AF25B48140001BA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JCD5VH7JT;
+				INFOPLIST_FILE = RocatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystianchrobok.RocatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocat.app/Rocat";
+			};
+			name = Debug;
+		};
+		838014B025B48140001BA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JCD5VH7JT;
+				INFOPLIST_FILE = RocatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystianchrobok.RocatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocat.app/Rocat";
+			};
+			name = Release;
+		};
+		838014B225B48140001BA8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JCD5VH7JT;
+				INFOPLIST_FILE = RocatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystianchrobok.RocatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rocat;
+			};
+			name = Debug;
+		};
+		838014B325B48140001BA8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JCD5VH7JT;
+				INFOPLIST_FILE = RocatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystianchrobok.RocatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rocat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8380147B25B4813E001BA8EC /* Build configuration list for PBXProject "Rocat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838014A925B48140001BA8EC /* Debug */,
+				838014AA25B48140001BA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838014AB25B48140001BA8EC /* Build configuration list for PBXNativeTarget "Rocat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838014AC25B48140001BA8EC /* Debug */,
+				838014AD25B48140001BA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838014AE25B48140001BA8EC /* Build configuration list for PBXNativeTarget "RocatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838014AF25B48140001BA8EC /* Debug */,
+				838014B025B48140001BA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838014B125B48140001BA8EC /* Build configuration list for PBXNativeTarget "RocatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838014B225B48140001BA8EC /* Debug */,
+				838014B325B48140001BA8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8380147825B4813E001BA8EC /* Project object */;
+}
