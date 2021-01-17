@@ -12,6 +12,7 @@ class GameScene: SKScene {
     
     var entities = [GKEntity]()
     var graphs = [String : GKGraph]()
+    var number = 1
     
     private var lastUpdateTime : TimeInterval = 0
     private var label : SKLabelNode?
